@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration  
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<mappers>
+		<mapper resource="com\unbank\mybatis\mapper\AreaMapper.xml" />
+		<mapper resource="com\unbank\mybatis\mapper\TreeMapper.xml" />
+		<mapper resource="com\unbank\mybatis\mapper\InfoDataMapper.xml" />
+		<mapper resource="com\unbank\mybatis\mapper\QgDataMapper.xml" />
+		<mapper resource="com\unbank\mybatis\mapper\SQLAdapterMapper.xml" />
+
+
+	</mappers>
+
+</configuration>  
